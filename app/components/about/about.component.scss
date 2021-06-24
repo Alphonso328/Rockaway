@@ -1,0 +1,62 @@
+/*       ABOUT SECTION    */
+#about {
+  padding-bottom: 7.5%;
+  padding-right: 0%;
+}
+
+#about-bg-diagonal {
+  width: 55%;
+  height: 600px;
+  float: right;
+  padding: 0%;
+  margin: 0%;
+  background: url(../../../assets/img/bradley.jpg);
+  border-left: 200px solid white;
+  border-top: 700px solid transparent;
+  background-attachment: fixed;
+}
+
+#about-content-box-outer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#about-content-box-inner {
+  margin-top: 45%;
+  display: inline-flex;
+}
+
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#about .content-title h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#about-des .lead {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.btn-primary {
+  padding: 15px 70px;
+  background-color: #ed404e;
+  border: none;
+  border-radius: 0;
+}
+
+a {
+  color: #fff;
+}
+
+.lead {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-weight: 600;
+}
