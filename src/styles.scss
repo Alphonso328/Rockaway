@@ -1,0 +1,151 @@
+/* You can add global styles to this file, and also import other style files */
+
+.navbar {
+  background: #201e1e;
+}
+.navbar .nav-link {
+  color: #ed404e;
+  font-family: poppin;
+}
+
+.navbar .nav-item :hover {
+  //   font-size: 1.5em;
+  color: #fff;
+}
+
+.routerLink .active {
+  color: #fff;
+}
+
+.nav-item {
+  font-size: 1.8em;
+  color: #ed404e;
+}
+
+body {
+  font: poppin;
+}
+
+////////////////////  Footer  //////////////////////////
+footer {
+  background-color: #201e1e;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // background-color: #1a1818;
+
+  p {
+    color: #fff;
+    line-height: 25px;
+  }
+
+  h2,
+  h3 {
+    color: #ed404e;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .footer-top {
+    padding: 80px 0;
+  }
+
+  .segment-one h3 {
+    font-family: "Times New Roman", Times, serif;
+    color: #ed404e;
+    letter-spacing: 3px;
+    margin: 10px 0;
+  }
+
+  .segment-two {
+    color: #ed404e;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+
+  .segment-two h2:before {
+    content: "|";
+    color: #fff;
+    padding-right: 10px;
+  }
+
+  .segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .segment-two ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+  }
+
+  .segment-two ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .segment-three h2 {
+    color: #ed404e;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+
+  .segment-three h2:before {
+    content: "|";
+    color: #fff;
+    padding-right: 10px;
+  }
+
+  .segment-three a {
+    background: #ed404e;
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+  .segment-three a i {
+    font-size: 20px;
+    color: white;
+    padding: 10px 16px;
+  }
+
+  .segment-four h2 {
+    color: #ed404e;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+
+  .segment-three h2:before {
+    content: "|";
+    color: #fff;
+    padding-right: 10px;
+  }
+
+  .segment-four .fa {
+    background: #ed404e;
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+  .segment-four a .fa {
+    font-size: 20px;
+    color: white;
+    padding: 10px 16px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.3em;
+    background: #ed404e;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 0%;
+  }
+}
